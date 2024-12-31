@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+}
+
+.register-box {
+    background: #FFFFFF19;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF4C;
+    padding: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.write-box {
+    width: 100%;
+}
+
+.input_info {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    box-sizing: border-box;
+}
+
+.input_info::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+.button:hover {
+    background: linear-gradient(to left, #8e2de2, #4a00e0);
+}
+p {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+.link-list-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #FFFFFF19;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF4C;
+    overflow-x: auto; /* Додає горизонтальний скрол, якщо таблиця широка */
+}
+
+.link-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.link-table th, .link-table td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.link-table th {
+    background-color: rgba(255, 255, 255, 0.1);
+}
